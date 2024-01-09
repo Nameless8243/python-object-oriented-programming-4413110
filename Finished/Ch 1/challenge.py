@@ -11,6 +11,7 @@ class Stock:
     def get_description(self):
         return f"{self.ticker}: {self.company} -- ${self.price}"
 
+
 # ~~~~~~~~~ TEST CODE ~~~~~~~~~
 msft = Stock("MSFT", 342.0, "Microsoft Corp")
 goog = Stock("GOOG", 135.0, "Google Inc")
